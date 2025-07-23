@@ -220,11 +220,11 @@
 
         SPECIAL_CHARS {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans       &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans       &trans  &trans
+&trans  &trans       &trans       &trans  &trans  &trans    &trans  &trans  &altcode_ue  &trans  &altcode_oe  &trans  &trans
+&trans  &altcode_ae  &altcode_ss  &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans       &trans  &trans
+&trans  &trans       &trans       &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans       &trans  &trans
+&trans  &trans       &trans       &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans       &trans
             >;
         };
     };
