@@ -79,6 +79,16 @@
             bindings = <&kp LEFT_ARROW>;
             key-positions = <35 34>;
         };
+
+        Escape_0 {
+            bindings = <&to 0>;
+            key-positions = <0 57>;
+        };
+
+        GT_6 {
+            bindings = <&to 6>;
+            key-positions = <57 1>;
+        };
     };
 
     macros {
@@ -225,6 +235,16 @@
 &trans  &altcode_ae  &altcode_ss  &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans       &trans  &trans
 &trans  &trans       &trans       &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans       &trans  &trans
 &trans  &trans       &trans       &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans       &trans
+            >;
+        };
+
+        GAMING {
+            bindings = <
+&kp ESC    &kp N1     &kp N2    &kp N3    &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp A      &kp S     &kp D     &kp F      &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp Z      &kp X     &kp C     &kp V      &kp B        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp GRAVE  &kp LGUI  &kp LALT  &kp SPACE  &kp ENTER    &trans  &to 0   &trans  &trans  &trans  &trans
             >;
         };
     };
